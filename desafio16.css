@@ -2,5 +2,15 @@ body{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(90deg,#4e053c 0%, #eb97eb 100%);
+    display:flex;
+    justfy-content: center;
+    aline-itens: center;
 
+}
+
+.tela{
+   backgraund-color: #fafafa;
+   border-radius: 10px;
+   box-shadow: 0 2px 5px rgb(244,248,6);
+    
 }
