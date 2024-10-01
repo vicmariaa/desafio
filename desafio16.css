@@ -1,18 +1,18 @@
-body{
+body {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(90deg, #4e053c 0%, #eb97eb 100%);
-    display:flex;
-    justfy-content: center;
-    aline-itens: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tela{
-   backgraund-color: #fafafa;
+.tela {
+   background-color: #fafafa;
    border-radius: 10px;
    box-shadow: 0 2px 5px rgb(244,248,6);
    width: 400px;
-   max-widht: 100%;
+   max-width: 100%;
    overflow: hidden;
    padding: 20px;
 }
