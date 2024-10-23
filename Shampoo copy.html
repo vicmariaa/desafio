@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Troca de Imagem com Degradê</title>
+    <link rel="stylesheet" href="Shampoo.css">
+    
+    <style>
+     
+    </style>
+</head>
+<body>
+    <div class="image-container" onclick="changeImage()">
+        <img src="Modelo 2.png" alt="Imagem">
+    </div>
+
+    <script>
+        const images = ['Mario.jpg', 'Mario2.jpg', 'morris.png'];
+        let currentImageIndex = 0;
+
+        function changeImage() {
+            const image = document.querySelector('img');
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            image.src = images[currentImageIndex];
+        }
+    </script>
+</body>
+</html>
